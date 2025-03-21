@@ -20,10 +20,39 @@ Understanding these factors can help in **early detection** and **preventive mea
 
 ## 📊 Project Overview
 
-✔ **Data Preparation** – Cleaning, handling missing values, and feature selection.  
-✔ **Exploratory Data Analysis (EDA)** – Understanding patterns and correlations in health indicators.  
-✔ **Machine Learning Model** – A predictive model trained to classify CHD risk.  
-✔ **Model Deployment** – The trained model is saved as a `.pkl` file for easy reuse.  
+This project follows a **structured pipeline** to analyze CHD risk factors and build a predictive model:
 
-This project helps in **understanding risk factors** and can be extended for **real-world applications** in cardiovascular risk assessment.
+✔ **Data Preparation** – Cleaning data, handling missing values, and treating outliers.  
+✔ **Exploratory Data Analysis (EDA)** – Understanding variable distributions and correlations.  
+✔ **Feature Selection & Engineering** – Identifying key predictors of CHD risk.  
+✔ **Model Training & Evaluation** – Building a machine learning model and assessing performance.  
+✔ **Deployment** – Saving the trained model for easy reuse.  
+
+This model helps in **understanding risk factors** and can be extended for **real-world applications** in cardiovascular health.
+
+---
+
+## 📊 Key Insights from the Analysis
+
+🔹 **Age and smoking habits** show a strong correlation with CHD risk.  
+🔹 **Higher cholesterol and blood pressure levels** significantly increase the likelihood of CHD.  
+🔹 **Diabetes and hypertension** are major contributing factors to cardiovascular health issues.  
+🔹 The machine learning model helps identify **high-risk individuals**, enabling early intervention.  
+
+These findings emphasize the need for **regular health screenings, lifestyle modifications, and medical intervention** to lower CHD risk.
+
+---
+
+## 🌐 Streamlit Web App
+
+This project features an **interactive Streamlit web app** that allows users to:
+
+✔ **View Key Insights** – Explore data visualizations from the EDA process.  
+✔ **Input Health Parameters** – Enter age, cholesterol, BP, smoking status, etc.  
+✔ **Get Risk Prediction** – Receive an estimate of their 10-year CHD risk.  
+
+🔗 **Live Demo:** [View Streamlit App on Hugging Face](https://huggingface.co/spaces/LakshmiHarika/CardioVascular_Risk_Prediction)  
+
+---
+
 
