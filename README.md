@@ -55,4 +55,6 @@ This project features an **interactive Streamlit web app** that allows users to:
 
 ---
 
+⚠️ **Note:** If visuals or predictions do not update, please **rerun the app** to refresh results.
 
+---
